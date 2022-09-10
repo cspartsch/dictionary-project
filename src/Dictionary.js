@@ -5,10 +5,10 @@ import "./Dictionary.css";
 export default function Dictionary() {
   let [keyword, setKeyword] = useState("");
 
-  function handleResponse(response){
-      console.log(response.data)
-  };
-
+  function handleResponse(response) {
+    console.log(response.data);
+    alert(`Searching for ${keyword}`);
+  }
 
   function search(event) {
     event.preventDefault();
