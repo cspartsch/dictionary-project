@@ -5,10 +5,18 @@ function App() {
   return (
     <div className="App">
       <div className="container">
-        <header className="App-header"></header>
+        <header className="App-header">Dictionary</header>
         <Dictionary />
         <footer className="App-footer">
-          <small>Coded by Carolyn Partsch</small>
+          <small>
+            This project was coded by Carolyn Partsch and is open-sourced on{" "}
+            <a
+              href="https://github.com/cspartsch/dictionary-project"
+              target="#blank"
+            >
+              GitHub
+            </a>
+          </small>
         </footer>
       </div>
     </div>

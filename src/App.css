@@ -1,5 +1,16 @@
+body{
+ background: radial-gradient(circle at 10% 20%, rgb(116, 203, 199) 0%, rgb(220, 246, 200) 90%);
+}
 
+.App-header {
+  font-size: 42px;
+  text-align: center;
+  margin: 30px;
+  color:#24527a;
+}
 
 .App-footer{
-  margin: 20px;
+  margin: 40px;
+  font-size: 12px;
+  text-align: center;
 }
