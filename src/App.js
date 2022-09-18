@@ -6,7 +6,7 @@ function App() {
     <div className="App">
       <div className="container">
         <header className="App-header">Dictionary</header>
-        <Dictionary />
+        <Dictionary defaultKeyword="mountain"/>
         <footer className="App-footer">
           <small>
             This project was coded by Carolyn Partsch and is open-sourced on{" "}
