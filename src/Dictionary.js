@@ -18,7 +18,7 @@ export default function Dictionary(props) {
     axios.get(apiUrl).then(handleResponse);
   }
 
-  function load(){
+  function load() {
     setLoaded(true);
     search();
   }
@@ -61,6 +61,6 @@ export default function Dictionary(props) {
     );
   } else {
     load();
-    return "Loading..."
+    return "Loading...";
   }
 }

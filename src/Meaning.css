@@ -1,3 +1,16 @@
-h3{
-color:#24527a;
+.Meaning h3 {
+    color:#24527a;
+}
+
+
+.Meaning .definition {
+    color:#5B5B5B;
+    margin-top:5px;
+}
+
+.Meaning .example {
+    color:#314E52;
+    opacity:50%;
+    font-style: italic;
+    margin-top:8px;
 }

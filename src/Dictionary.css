@@ -3,6 +3,7 @@
   margin: 0 auto;
 }
 
+
 .Dictionary section {
   background: white;
   padding: 25px;
@@ -21,5 +22,5 @@
 .Dictionary .hint{
     font-size: 10px;
     margin-top: 3px;
-    
+
 }
