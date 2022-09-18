@@ -2,6 +2,9 @@ body{
  background: radial-gradient(circle at 10% 20%, rgb(116, 203, 199) 0%, rgb(220, 246, 200) 90%);
 }
 
+a {
+    color:red;
+}
 .App-header {
   font-size: 42px;
   text-align: center;
