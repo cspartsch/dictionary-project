@@ -2,9 +2,6 @@ body{
  background: radial-gradient(circle at 10% 20%, rgb(116, 203, 199) 0%, rgb(220, 246, 200) 90%);
 }
 
-a{
-    color:red;
-}
 .App {
   max-width: 960px;
   margin: 0 auto;
@@ -14,7 +11,7 @@ a{
   text-align: center;
   margin: 30px;
   color:#24527a;
-  font-weight: 500;
+  font-weight: bolder;
 }
 
 .App-footer{

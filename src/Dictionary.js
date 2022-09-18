@@ -54,18 +54,21 @@ export default function Dictionary(props) {
                   onChange={handleKeywordChange}
                   placeholder="Search for a word.."
                   className="form-control"
+                  autoFocus="yes"
                 />
               </div>
               <div className="col-3">
                 <input
                   type="submit"
-                  className="btn btn-primary w-100"
+                  className="search-btn w-100"
                   value="Search"
                 />
               </div>
             </div>
           </form>
-          <div className="hint">suggested words: sun, boat, wine, honey</div>
+          <em>
+            <div className="hint">suggested words: sun, boat, wine, honey</div>
+          </em>
         </section>
         <Results results={results} />
         <Photos photos={photos} />

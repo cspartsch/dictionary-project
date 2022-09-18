@@ -3,7 +3,16 @@
   margin: 0 auto;
 }
 
+.Dictionary .search-btn {
+  background-color: #38a3a5;
+  color: white;
+  box-shadow: 0px 5px 15px rgb(0 0 0 / 10%);
+}
 
+.Dictionary .search-btn:hover {
+  background-color: white;
+  color: #38a3a5;
+}
 .Dictionary section {
   background: white;
   padding: 25px;
@@ -13,14 +22,12 @@
 }
 
 .Dictionary input {
-    border-radius: 6px;
-    padding: 6px 4px;
-    border: 1px solid #38A3A5;
-
+  border-radius: 6px;
+  padding: 6px 4px;
+  border: 1px solid #38a3a5;
 }
 
-.Dictionary .hint{
-    font-size: 10px;
-    margin-top: 3px;
-
+.Dictionary .hint {
+  font-size: 10px;
+  margin-top: 5px;
 }
