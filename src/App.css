@@ -5,6 +5,10 @@ body{
 a{
     color:red;
 }
+.App {
+  max-width: 960px;
+  margin: 0 auto;
+}
 .App-header {
   font-size: 42px;
   text-align: center;
